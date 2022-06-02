@@ -1,0 +1,19 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "API Rest for challange project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "and",
+    "React"
+  ],
+  "author": "Jean Vasconcelos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
