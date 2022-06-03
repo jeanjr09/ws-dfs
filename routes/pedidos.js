@@ -9,8 +9,13 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
+    const pedido = {
+        id_product: req.body.id_product,
+        quantity: req.body.quantity
+    };
     res.status(201).send({
-        mensagem: 'O pedido foi criado'        
+        mensagem: 'O pedido foi criado',  
+        orderCreated: pedido      
     })
 });
 
