@@ -4,6 +4,7 @@ const morgan = require('morgan');
 app.use('/uploads', express.static('uploads'));
 const bodyParser = require('body-parser');
 
+const rotaTasks = require('./routes/tasks');
 const rotaProdutos = require('./routes/products');
 const rotaPedidos = require('./routes/pedidos');
 const rotaUsers = require('./routes/users');
@@ -33,6 +34,7 @@ app.use((req, res, next) => {
 app.use('/products', rotaProdutos);
 app.use('/pedidos', rotaPedidos);
 app.use('/users', rotaUsers);
+app.use('/tasks', rotaTasks);
 
 app.use((req, res, next) => {
     const erro = new Error('Não encontrado');

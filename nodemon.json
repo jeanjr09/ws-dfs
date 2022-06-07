@@ -6,6 +6,7 @@
         "env.MYSQL_HOST" : "localhost",
         "env.MYSQL_PORT" : "3306",
 
-        "JWT_KEY" : "secret"
+        "JWT_KEY" : "secret",
+        "URL_API" : "http://localhost:8080/"
     }
 }
