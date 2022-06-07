@@ -4,6 +4,8 @@
         "MYSQL_PASSWORD" : "root",
         "MYSQL_DATABASE" : "ecommerce",
         "env.MYSQL_HOST" : "localhost",
-        "env.MYSQL_PORT" : "3306"
+        "env.MYSQL_PORT" : "3306",
+
+        "JWT_KEY" : "secret"
     }
 }
